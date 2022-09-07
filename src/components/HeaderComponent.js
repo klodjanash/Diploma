@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
-
+let logoPath = "assets/images/1791961.png";
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -15,16 +15,14 @@ class Header extends Component {
     return (
       <>
         <Navbar dark expand="md">
-          <div className="container">
+          <div className="container align-center">
             <Nav navbar>
               <NavItem>
                 <NavLink className="nav-link" to="/home">
-                  <span
-                    className="fa fa-book fa-lg"
-                    style={{ justifyContent: "center", marginLeft: "300px" }}
-                  >
+                  <img className="captcha-logo" src={logoPath} alt="Logo"></img>
+                  <span className="header-title">
                     {" "}
-                    Sistem verifikimi perdoruesi njerezor{" "}
+                    Sistem identifikimi perdoruesi njerezor{" "}
                   </span>
                 </NavLink>
               </NavItem>
