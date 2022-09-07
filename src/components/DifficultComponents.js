@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class History extends Component {
-
-    render() {
-        return (
-            <div>
-                <p>
-                    Problemi është se sa herë që softueri bëhet më i mirë në zbulimin e tekstit, teksti duhet të bëhet më i vështirë për tu lexuar. Dhe ky problem po i shqeteson mjaft shume perdoruesit e kompjuterave sepse do vi nje kohe qe captcha do behen me te veshtira per tu lexuar nga kompjuterat, por njekohesisht do jene shume te veshtire dhe per njerezit.
-                    <br/>
-                    Veshtiresi tjeter eshte qe captcha kane nje kohezgjatje prej 2 minutash. Keshtu qe perdoruesit duhet te zgjidhin captcha patjeter gjate kesaj kohezgjatje.
-                    <br/>
-                    Nje tjeter problem eshte per personat qe kane probleme me shkimin. Duke qene se captcha kryesisht zgjidhen nga libra te vjeter, ato nuk pamje te qarte. 
-
-                </p>
-             </div>
-
-        )
-    }
+  render() {
+    return (
+      <div>
+        <p>
+          Problemi është se sa herë që softueri bëhet më i mirë në zbulimin e
+          tekstit, teksti duhet të bëhet më i vështirë për tu lexuar. Dhe ky
+          problem po i shqetëson mjaft shumë përdoruesit e kompjuterave sepse do
+          vij një kohë që captcha do bëhen më të vështira për tu lexuar nga
+          kompjuterat, por njëkohesisht do jenë shumë te vështirë dhe për
+          njerëzit.
+          <br />
+          Vështirësi tjetër është që captcha kanë një kohëzgjatje prej 2
+          minutash. Kështu që përdoruesit duhet të zgjidhin captcha patjetër
+          gjatë kësaj kohëzgjatje.
+          <br />
+          Një tjetër problem është për personat që kanë probleme me shkimin.
+          Duke qenë se captcha kryesisht zgjidhen nga libra të vjetër, ato nuk
+          pamje të qartë.
+        </p>
+      </div>
+    );
+  }
 }
 export default History;
