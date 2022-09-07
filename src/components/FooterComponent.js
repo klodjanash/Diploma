@@ -5,14 +5,14 @@ function Footer() {
     <div className="footer">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-4 offset-1 col-sm-2 punoi">
+          <div className="col-md-6 punoi">
             <address>
               <h6>Punoi:</h6>
               <i className="fa fa-user fa-lg"></i> Klodjana Sharka <br />
             </address>
           </div>
-          <div className="col-12 col-sm-4 align-self-center">
-            <div className="text-center">
+          <div className="col-md-6 col-sm-4 align-self-center">
+            <div className="text-right">
               <h6>Follow me: </h6>
               <p>
                 <a
@@ -37,15 +37,7 @@ function Footer() {
                   <i className="fa fa-instagram"></i>
                 </a>
 
-                <a>
-                  <i></i>
-                </a>
-                <a>
-                  <i></i>
-                </a>
-                <a>
-                  <i></i>
-                </a>
+                
               </p>
             </div>
           </div>

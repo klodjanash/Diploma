@@ -33,7 +33,7 @@
   min-height: 400px;
 }
 .footer {
-  background-color: #0b8593;
+  background-color: #e4e8e9;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
@@ -44,10 +44,16 @@
   font-size: 15px;
 }
 .navbar-dark {
-  background-color: rgb(43, 146, 150);
+  background-color: rgb(94 94 94);
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 .home {
-  background-color: rgb(157, 244, 247);
+  margin-top: 175px;
+  margin-bottom: 50px;
 }
 .carousel {
   margin-left: 150px;
@@ -62,7 +68,13 @@
 }
 .titull {
   color: #052647;
+  text-transform: uppercase;
+  
 }
+
+.titull::after {
+  border-bottom: 1px solid red;
+} 
 
 @keyframes App-logo-spin {
   from {
@@ -72,3 +84,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -18,11 +18,14 @@ code {
 }
 
 .captcha-logo {
-  max-width: 150px;
-  max-height: 150px;
+  max-height: 70px;
 }
 
 .header-title {
   text-transform: uppercase;
   
+}
+
+a {
+  color: black !important;
 }

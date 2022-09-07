@@ -110,7 +110,7 @@ class Home extends Component {
                   </div>
                 </div>
 
-                <Button outline onClick={this.toggleModal}>
+                <Button primary onClick={this.toggleModal}>
                   Shfaq captcha
                 </Button>
 
